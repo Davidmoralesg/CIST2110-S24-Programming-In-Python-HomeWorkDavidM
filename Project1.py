@@ -65,7 +65,7 @@ if input_question1.lower() == "b":
 else:
     print("Incorrect! The answer is 4")
 
-if input_question1.lower() not in ['a', 'b', 'c', 'd']:
+while input_question1.lower() not in ['a', 'b', 'c', 'd']:
     print("Invalid input. Please enter a, b, c, or d.")
     input_question1 = input("Please enter your answer: ")
 
@@ -83,7 +83,7 @@ if input_question2.lower() == "d":
     score += 1
 else:
     print("Incorrect! The answer is Drive")
-if input_question2.lower() not in ['a', 'b', 'c', 'd']:
+while input_question2.lower() not in ['a', 'b', 'c', 'd']:
     print("Invalid input. Please enter a, b, c, or d.")
     input_question2 = input("Please enter your answer: ")    
 
@@ -115,7 +115,7 @@ if intput_question4.lower() == "b":
     score += 1
 else:
     print("Incorrect! The answer is Washington D.C.")
-if intput_question4.lower() not in ['a', 'b', 'c', 'd']:
+while intput_question4.lower() not in ['a', 'b', 'c', 'd']:
     print("Invalid input. Please enter a, b, c, or d.")
     intput_question4 = input("Please enter your answer: ")
 
@@ -132,7 +132,7 @@ if input_question5.lower() == "d":
     score += 1
 else:
     print("Incorrect! The answer is Mexico City")
-if input_question5.lower() not in ['a', 'b', 'c', 'd']:
+while input_question5.lower() not in ['a', 'b', 'c', 'd']:
     print("Invalid input. Please enter a, b, c, or d.")
     input_question5 = input("Please enter your answer: ")
     
